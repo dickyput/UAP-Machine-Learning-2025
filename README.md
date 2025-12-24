@@ -4,8 +4,19 @@ Proyek UAP Pembelajaran Mesin Universitas Muhammadiyah Malang 2025.
 Sistem ini mengklasifikasikan citra air menjadi tiga kategori: **Gelap, Jernih, dan Keruh**.
 
 ## 1. Dataset
+
+Dataset yang digunakan dalam penelitian ini bersumber dari repositori publik Kaggle yang telah disesuaikan untuk studi kasus klasifikasi air.
+
+- **Nama Dataset:** Sea Animals Image Dataset (diadaptasi untuk Visualisasi Air)
+- **Sumber Download:** [Kaggle - Vencerlanz09](https://www.kaggle.com/datasets/vencerlanz09/sea-animals-image-dataste)
+- **Struktur Data:**
+  - **Training:** 18,296 gambar
+  - **Validasi:** 4,574 gambar
+- **Kelas (Label):**
+  1. `Gelap`
+  2. `Jernih`
+  3. `Keruh`
 - **Sumber Data:** EUVP Dataset (Enhancement of Underwater Visual Perception).
-- **Jumlah Data:** 7.000+ Citra.
 - **Preprocessing:** Resize 224x224, Normalisasi (1./255), Augmentasi (Rotation, Flip).
 
 ## 2. Arsitektur Model
