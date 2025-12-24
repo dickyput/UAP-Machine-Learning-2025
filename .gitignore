@@ -1,0 +1,14 @@
+# Abaikan sistem & environment
+venv/
+__pycache__/
+.env
+.vscode/
+
+# Abaikan Dataset 
+dataset/
+Dataset_Final/
+DatasetUAPML/
+
+# Abaikan SEMUA Model 
+models/
+*.h5
