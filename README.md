@@ -115,9 +115,6 @@ Mas Dicky Putra Sanjaya
 
 Teknik Informatika - Universitas Muhammadiyah Malang
 </details>🚀 Live DemoAplikasi Streamlit dapat diakses melalui jaringan lokal saat server berjalan.TiTipe Akses,URL
-## 🚀 Live Demo
-
-Aplikasi Streamlit dapat diakses melalui jaringan lokal saat server berjalan.
 
 | Tipe Akses | URL |
 | :--- | :--- |
