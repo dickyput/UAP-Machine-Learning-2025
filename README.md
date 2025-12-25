@@ -64,7 +64,16 @@ Setiap citra yang masuk melalui proses:
 ## 💻 Instalasi & Penggunaan
 
 Pastikan Python 3.8+ sudah terinstall.
+<div align="center">
 
+Mas Dicky Putra Sanjaya
+
+
+202210370311167
+
+
+Teknik Informatika - Universitas Muhammadiyah Malang
+</details>🚀 Live DemoAplikasi Streamlit dapat diakses melalui jaringan lokal saat server berjalan.Tipe AksesURL🏠 Local URLhttp://localhost:8501🌐 Network URLhttp://10.243.83.41:8501Catatan: URL Network hanya dapat diakses jika perangkat Anda terhubung dalam satu jaringan Wi-Fi/LAN yang sama dengan server host.
 **1. Install Dependensi**
 ```bash
 pip install tensorflow numpy pandas matplotlib seaborn streamlit pillow
@@ -96,4 +105,3 @@ weighted avg       0.88      0.88      0.88      4574
     accuracy                           0.85      4574
    macro avg       0.87      0.81      0.82      4574
 weighted avg       0.85      0.85      0.84      4574
-</details>🚀 Live DemoAplikasi Streamlit dapat diakses melalui jaringan lokal saat server berjalan.Tipe AksesURL🏠 Local URLhttp://localhost:8501🌐 Network URLhttp://10.243.83.41:8501Catatan: URL Network hanya dapat diakses jika perangkat Anda terhubung dalam satu jaringan Wi-Fi/LAN yang sama dengan server host.👨‍💻 Author<div align="center">Mas Dicky Putra Sanjaya202210370311167Teknik Informatika - Universitas Muhammadiyah Malang
