@@ -104,6 +104,8 @@ pip install tensorflow numpy pandas matplotlib seaborn streamlit pillow
 | **Weighted Avg** | 0.85 | 0.85 | 0.84 | 4574 |
 
 </details>
+</details>
+</details>
 <div align="center">
 
 Mas Dicky Putra Sanjaya
@@ -113,6 +115,7 @@ Mas Dicky Putra Sanjaya
 
 
 Teknik Informatika - Universitas Muhammadiyah Malang
-***Link live demo [DISINI LINKNYA](http://localhost:8501) |
+</details>
+Link live demo [DISINI LINKNYA](http://localhost:8501) |
 
 
