@@ -1,3 +1,17 @@
+
+[Link Dataset](https://drive.google.com/drive/folders/1Au4Pvsjrn--V2T55MiFk_yC2AXcqCQl1?usp=sharing)) |
+
+
+> *Catatan: URL Network hanya dapat diakses jika perangkat Anda terhubung dalam satu jaringan Wi-Fi/LAN yang sama dengan server host.*## 🚀 Live Demo
+
+Aplikasi Streamlit dapat diakses melalui jaringan lokal saat server berjalan.
+
+| Tipe Akses | URL |
+| :--- | :--- |
+| **🏠 Local URL** | [http://localhost:8501](http://localhost:8501) |
+| **🌐 Network URL** | [http://10.243.83.41:8501](http://10.243.83.41:8501) |
+
+> *Catatan: URL Network hanya dapat diakses jika perangkat Anda terhubung dalam satu jaringan Wi-Fi/LAN yang sama dengan server host.*
 <div align="center">
 
 # 🌊 Water Quality Classification System
