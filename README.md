@@ -113,6 +113,6 @@ Mas Dicky Putra Sanjaya
 
 
 Teknik Informatika - Universitas Muhammadiyah Malang
-Link live demo [DISINI LINKNYA](http://localhost:8501) |
+***Link live demo [DISINI LINKNYA](http://localhost:8501) |
 
 
