@@ -52,11 +52,13 @@ Setiap citra yang masuk melalui proses:
 * **Augmentation:** Rotasi dan *flip* acak untuk memperkaya variasi data latih.
 
 ### 2. Model yang Diuji
-|| Nama Model | Akurasi | Hasil Analisis |
+| Nama Model | Akurasi | Hasil Analisis |
 | :--- | :---: | :--- |
 | **Custom CNN (Scratch)** | **95%** | Model ini menunjukkan performa terbaik (State-of-the-Art) dalam penelitian ini. Konvergensi loss sangat stabil dan memiliki keseimbangan nilai *Precision* dan *Recall* tertinggi (rata-rata 0.95), yang berarti model mampu membedakan ketiga kelas dengan sangat baik tanpa bias yang signifikan. |
 | **MobileNetV2** | 88% | Performa tergolong baik (Good Fit) namun mengalami kesulitan pada kelas `Keruh` (Recall 0.71). Model cenderung bias memprediksi air keruh sebagai kelas lain. Keunggulan model ini ada pada kecepatan training yang lebih cepat dibandingkan ResNet. |
 | **ResNet50V2** | 85% | Performa terendah (Underperforming) untuk dataset ini. Model mengalami kesulitan signifikan dalam mengidentifikasi ciri visual kelas `Keruh` (Recall sangat rendah: 0.58). Selain itu, waktu komputasi paling lambat (sekitar 2200 detik/epoch). |
+
+> **Kesimpulan:** Berdasarkan tabel di atas, model **Custom CNN (Scratch)** dipilih sebagai model terbaik karena memiliki akurasi tertinggi (95%) dan konsistensi deteksi yang paling andal di seluruh kelas.
 
 ---
 
