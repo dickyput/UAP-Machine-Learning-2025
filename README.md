@@ -69,10 +69,6 @@ Pastikan Python 3.8+ sudah terinstall.
 pip install tensorflow numpy pandas matplotlib seaborn streamlit pillow
 ** 2. Jalankan Aplikasi (Streamlit)Gunakan perintah berikut di terminal proyek Anda:Bashstreamlit run app.py
 🏆 Hasil Analisis & PerformaBagian ini merangkum evaluasi model pada 4,574 data validasi.🥇 Tabel Perbandingan Model (Final Result)Nama ModelAkurasiPredikatAnalisis SingkatCustom CNN95%🌟 BESTSangat Stabil. Menghasilkan keseimbangan Precision & Recall tertinggi tanpa bias. Tidak mengalami overfitting signifikan.MobileNetV288%GOODCukup Baik. Namun kesulitan membedakan kelas Keruh (banyak salah prediksi). Keunggulannya ada pada kecepatan training.ResNet50V285%POORKurang Optimal. Sangat kesulitan mengenali kelas Keruh (Recall hanya 0.58). Waktu training paling lama (berat).Kesimpulan: Model Custom CNN (Scratch) dipilih sebagai model utama karena memiliki akurasi tertinggi dan konsistensi terbaik
-.<details><summary>🔻 <b>Klik di sini untuk melihat Detail Classification Report (Raw Data)</b></summary>
-<details>
-<summary>🔻 <b>Klik di sini untuk melihat Detail Classification Report (Tabel Lengkap)</b></summary>
-<br>
 
 ### 1. Custom CNN (Scratch) - 🌟 Best Model
 | Kelas | Precision | Recall | F1-Score | Support |
