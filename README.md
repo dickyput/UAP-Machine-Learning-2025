@@ -64,6 +64,51 @@ Setiap citra yang masuk melalui proses:
 ## 💻 Instalasi & Penggunaan
 
 Pastikan Python 3.8+ sudah terinstall.
+
+**1. Install Dependensi**
+pip install tensorflow numpy pandas matplotlib seaborn streamlit pillow
+** 2. Jalankan Aplikasi (Streamlit)Gunakan perintah berikut di terminal proyek Anda:Bashstreamlit run app.py
+🏆 Hasil Analisis & PerformaBagian ini merangkum evaluasi model pada 4,574 data validasi.🥇 Tabel Perbandingan Model (Final Result)Nama ModelAkurasiPredikatAnalisis SingkatCustom CNN95%🌟 BESTSangat Stabil. Menghasilkan keseimbangan Precision & Recall tertinggi tanpa bias. Tidak mengalami overfitting signifikan.MobileNetV288%GOODCukup Baik. Namun kesulitan membedakan kelas Keruh (banyak salah prediksi). Keunggulannya ada pada kecepatan training.ResNet50V285%POORKurang Optimal. Sangat kesulitan mengenali kelas Keruh (Recall hanya 0.58). Waktu training paling lama (berat).Kesimpulan: Model Custom CNN (Scratch) dipilih sebagai model utama karena memiliki akurasi tertinggi dan konsistensi terbaik
+.<details><summary>🔻 <b>Klik di sini untuk melihat Detail Classification Report (Raw Data)</b></summary>
+<details>
+<summary>🔻 <b>Klik di sini untuk melihat Detail Classification Report (Tabel Lengkap)</b></summary>
+<br>
+
+### 1. Custom CNN (Scratch) - 🌟 Best Model
+| Kelas | Precision | Recall | F1-Score | Support |
+| :--- | :---: | :---: | :---: | :---: |
+| **Gelap** | 0.96 | 1.00 | 0.98 | 1110 |
+| **Jernih** | 0.99 | 0.92 | 0.95 | 2287 |
+| **Keruh** | 0.87 | 0.96 | 0.91 | 1177 |
+| **Accuracy** | | | **0.95** | 4574 |
+| **Macro Avg** | 0.94 | 0.96 | 0.95 | 4574 |
+| **Weighted Avg** | 0.95 | 0.95 | 0.95 | 4574 |
+
+<br>
+
+### 2. MobileNetV2
+| Kelas | Precision | Recall | F1-Score | Support |
+| :--- | :---: | :---: | :---: | :---: |
+| **Gelap** | 0.90 | 0.97 | 0.93 | 1110 |
+| **Jernih** | 0.88 | 0.93 | 0.90 | 2287 |
+| **Keruh** | 0.87 | 0.71 | 0.78 | 1177 |
+| **Accuracy** | | | **0.88** | 4574 |
+| **Macro Avg** | 0.88 | 0.87 | 0.87 | 4574 |
+| **Weighted Avg** | 0.88 | 0.88 | 0.88 | 4574 |
+
+<br>
+
+### 3. ResNet50V2
+| Kelas | Precision | Recall | F1-Score | Support |
+| :--- | :---: | :---: | :---: | :---: |
+| **Gelap** | 0.87 | 0.88 | 0.87 | 1110 |
+| **Jernih** | 0.82 | 0.97 | 0.89 | 2287 |
+| **Keruh** | 0.91 | 0.58 | 0.71 | 1177 |
+| **Accuracy** | | | **0.85** | 4574 |
+| **Macro Avg** | 0.87 | 0.81 | 0.82 | 4574 |
+| **Weighted Avg** | 0.85 | 0.85 | 0.84 | 4574 |
+
+</details>
 <div align="center">
 
 Mas Dicky Putra Sanjaya
@@ -74,34 +119,3 @@ Mas Dicky Putra Sanjaya
 
 Teknik Informatika - Universitas Muhammadiyah Malang
 </details>🚀 Live DemoAplikasi Streamlit dapat diakses melalui jaringan lokal saat server berjalan.Tipe AksesURL🏠 Local URLhttp://localhost:8501🌐 Network URLhttp://10.243.83.41:8501Catatan: URL Network hanya dapat diakses jika perangkat Anda terhubung dalam satu jaringan Wi-Fi/LAN yang sama dengan server host.
-**1. Install Dependensi**
-```bash
-pip install tensorflow numpy pandas matplotlib seaborn streamlit pillow
-2. Jalankan Aplikasi (Streamlit)Gunakan perintah berikut di terminal proyek Anda:Bashstreamlit run app.py
-🏆 Hasil Analisis & PerformaBagian ini merangkum evaluasi model pada 4,574 data validasi.🥇 Tabel Perbandingan Model (Final Result)Nama ModelAkurasiPredikatAnalisis SingkatCustom CNN95%🌟 BESTSangat Stabil. Menghasilkan keseimbangan Precision & Recall tertinggi tanpa bias. Tidak mengalami overfitting signifikan.MobileNetV288%GOODCukup Baik. Namun kesulitan membedakan kelas Keruh (banyak salah prediksi). Keunggulannya ada pada kecepatan training.ResNet50V285%POORKurang Optimal. Sangat kesulitan mengenali kelas Keruh (Recall hanya 0.58). Waktu training paling lama (berat).Kesimpulan: Model Custom CNN (Scratch) dipilih sebagai model utama karena memiliki akurasi tertinggi dan konsistensi terbaik.<details><summary>🔻 <b>Klik di sini untuk melihat Detail Classification Report (Raw Data)</b></summary>1. Custom CNN (Scratch)Plaintext              precision    recall  f1-score   support
-
-       Gelap       0.96      1.00      0.98      1110
-      Jernih       0.99      0.92      0.95      2287
-       Keruh       0.87      0.96      0.91      1177
-
-    accuracy                           0.95      4574
-   macro avg       0.94      0.96      0.95      4574
-weighted avg       0.95      0.95      0.95      4574
-2. MobileNetV2Plaintext              precision    recall  f1-score   support
-
-       Gelap       0.90      0.97      0.93      1110
-      Jernih       0.88      0.93      0.90      2287
-       Keruh       0.87      0.71      0.78      1177
-
-    accuracy                           0.88      4574
-   macro avg       0.88      0.87      0.87      4574
-weighted avg       0.88      0.88      0.88      4574
-3. ResNet50V2Plaintext              precision    recall  f1-score   support
-
-       Gelap       0.87      0.88      0.87      1110
-      Jernih       0.82      0.97      0.89      2287
-       Keruh       0.91      0.58      0.71      1177
-
-    accuracy                           0.85      4574
-   macro avg       0.87      0.81      0.82      4574
-weighted avg       0.85      0.85      0.84      4574
