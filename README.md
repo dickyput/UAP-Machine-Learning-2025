@@ -118,4 +118,13 @@ Mas Dicky Putra Sanjaya
 
 
 Teknik Informatika - Universitas Muhammadiyah Malang
-</details>🚀 Live DemoAplikasi Streamlit dapat diakses melalui jaringan lokal saat server berjalan.Tipe AksesURL🏠 Local URLhttp://localhost:8501🌐 Network URLhttp://10.243.83.41:8501Catatan: URL Network hanya dapat diakses jika perangkat Anda terhubung dalam satu jaringan Wi-Fi/LAN yang sama dengan server host.
+</details>🚀 Live DemoAplikasi Streamlit dapat diakses melalui jaringan lokal saat server berjalan.TiTipe Akses,URL
+## 🚀 Live Demo
+
+Aplikasi Streamlit dapat diakses melalui jaringan lokal saat server berjalan.
+
+| Tipe Akses | URL |
+| :--- | :--- |
+| **🏠 Local URL** | [http://localhost:8501](http://localhost:8501) |
+| **🌐 Network URL** | [http://10.243.83.41:8501](http://10.243.83.41:8501) |
+
